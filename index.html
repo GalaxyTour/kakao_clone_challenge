@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <link rel="stylesheet" href="css/styles.css" />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Wellcome to KakaoTalk</title>
+    </head>
+    <body>
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>18:43</span>
+                <i class="fa-solid fa-comment"></i>
+            </div>
+            <div class="status-bar__column">
+                <i class="fa-solid fa-volume-xmark"></i>
+                <i class="fa-solid fa-wifi"></i>
+                <span>100%</span>
+                <i class="fa-solid fa-battery-full fa-lg"></i>
+            </div>
+        </div>
+
+        <header class="welcome-header">
+            <h1 class="welcome-header__title">kakao</h1>
+            <p class="welcome-header__text welcome-header__remark">
+                이건 클론페이지라 스킵할 수 있어요!
+            </p>
+        </header>
+
+        <form action="friends.html" method="get" class="login-form">
+            <input
+                type="text"
+                placeholder="카카오메일 아이디, 이메일, 전화번호"
+            />
+            <p class="login-form__tip">
+                <span class="tip_badge">TIP</span> 카카오메일이 있다면 아이디만
+                입력해 보세요.
+            </p>
+            <input type="password" placeholder="비밀번호" />
+            <input class="login-form__login" type="submit" value="로그인" />
+            <div class="page-split">
+                <span class="page-split__solid"></span>
+                <div class="page-split__text">또는</div>
+                <span class="page-split__solid"></span>
+            </div>
+            <input
+                class="login-form__login-qr"
+                type="submit"
+                value="QR코드 로그인"
+            />
+            <div class="login-form__find-account">
+                <a href="#">회원가입</a>
+                <div>
+                    <a href="#">카카오계정</a>
+                    <span></span>
+                    <a href="#">비밀번호 찾기</a>
+                </div>
+            </div>
+        </form>
+
+        <div class="big-screen">
+            <span>Sorry! Your screen is too big... :(</span>
+        </div>
+
+        <script
+            src="https://kit.fontawesome.com/904f0f26c8.js"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

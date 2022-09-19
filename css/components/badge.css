@@ -1,0 +1,22 @@
+.chat-badge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: tomato;
+    color: white;
+    font-weight: 600;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    z-index: 999;
+}
+
+.noti-badge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+}
